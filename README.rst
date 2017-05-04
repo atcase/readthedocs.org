@@ -3,6 +3,13 @@ Welcome to Read The Docs
 
 |build-status| |docs|
 
+Read the Cochlear Docs
+----------------------
+
+This is the Cochlear fork of the Read the Docs project, as used to host all these wonderful `Cochlear docs`_.
+
+.. _Cochlear docs: http://readthedocs.cochlear.com/
+
 Purpose
 -------
 
