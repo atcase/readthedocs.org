@@ -33,23 +33,23 @@ class CommunityBaseSettings(Settings):
     LOG_DEBUG = False
 
     # Domains and URLs
-    PRODUCTION_DOMAIN = 'readthedocs.org'
+    PRODUCTION_DOMAIN = 'readthedocs.cochlear.com'
     PUBLIC_DOMAIN = None
     USE_SUBDOMAIN = False
     PUBLIC_API_URL = 'https://{0}'.format(PRODUCTION_DOMAIN)
 
     ADMINS = (
-        ('Eric Holscher', 'eric@readthedocs.org'),
-        ('Anthony Johnson', 'anthony@readthedocs.org'),
+        ('Sasha Case', 'scase@cochlear.com'),
+        ('Steven Barlow', 'sbarlow@cochlear.com'),
     )
     MANAGERS = ADMINS
 
     # Email
-    DEFAULT_FROM_EMAIL = "no-reply@readthedocs.org"
+    DEFAULT_FROM_EMAIL = "no-reply@readthedocs.cochlear.com"
     SERVER_EMAIL = DEFAULT_FROM_EMAIL
 
     # Cookies
-    SESSION_COOKIE_DOMAIN = 'readthedocs.org'
+    SESSION_COOKIE_DOMAIN = 'readthedocs.cochlear.com'
     SESSION_COOKIE_HTTPONLY = True
     CSRF_COOKIE_HTTPONLY = True
 
