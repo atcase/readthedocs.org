@@ -20,7 +20,7 @@ def elastic_search(request):
     """
 
     query = request.GET.get('q')
-    type = request.GET.get('type', 'project')
+    type = request.GET.get('type', 'file')
     # File Facets
     project = request.GET.get('project')
     version = request.GET.get('version', LATEST)
